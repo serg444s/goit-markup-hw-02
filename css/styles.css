@@ -1,0 +1,87 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* heder  */
+
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-size: 18;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-size: 18;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.nav-link li a {
+  color: #2e2f42;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.nav-link li a:hover,
+.nav-link li a:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.adress-link li a {
+  color: #434455;
+}
+
+.adress-link li a:hover,
+.adress-link li a:focus {
+  color: #404bbf;
+}
+
+/* section 1 */
+
+.section1 {
+  width: 1440;
+  height: 600;
+  background: #2e2f42;
+}
+
+.section1-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56;
+  font-weight: 700;
+}
+
+.section1-button {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  border-radius: 4px;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.section1-button:hover {
+  background: #404bbf;
+}
+
+/* section2 */
+
+.section2 li h3 {
+  font-size: 20;
+  font-weight: 500;
+  line-height: 1.2;
+}
