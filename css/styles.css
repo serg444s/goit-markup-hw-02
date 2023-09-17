@@ -27,38 +27,38 @@ ul {
   color: #2e2f42;
 }
 
-.nav-link li a {
+.nav-link {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.nav-link li a:hover,
-.nav-link li a:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
   text-decoration: underline;
 }
 
-.adress-link li a {
+.adress-link {
   font-style: normal;
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.adress-link li a:hover,
-.adress-link li a:focus {
+.adress-link:hover,
+.adress-link:focus {
   color: #404bbf;
 }
 
 /* section 1 */
 
-.section1 {
+.section-button {
   background: #2e2f42;
 }
 
-.section1-title {
+.section-button-title {
   color: #ffffff;
   text-align: center;
   font-size: 56px;
@@ -67,7 +67,7 @@ ul {
   font-weight: 700;
 }
 
-.section1-button {
+.button {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-weight: 500;
@@ -78,14 +78,14 @@ ul {
   cursor: pointer;
 }
 
-.section1-button:hover,
-.section1-button:focus {
+.button:hover,
+.button:focus {
   background: #404bbf;
 }
 
 /* section2 */
 
-.section2 li h3 {
+.section-advantages-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -93,18 +93,18 @@ ul {
   color: #2e2f42;
 }
 
-.section2 li p {
+.section-advantages-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 /* section3 */
 
-.section3 {
+.section-our-team {
   background: #f4f4fd;
 }
 
-.section3 h2 {
+.section-our-team-title {
   font-size: 36px;
   line-height: 1.11;
   font-weight: 700;
@@ -114,11 +114,11 @@ ul {
   text-align: center;
 }
 
-.our-team-list li {
+.our-team-list {
   background-color: #ffffff;
 }
 
-.our-team-list li h3 {
+.our-team-list-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -127,7 +127,7 @@ ul {
   color: #2e2f42;
 }
 
-.our-team-list li p {
+.our-team-list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -135,7 +135,7 @@ ul {
 
 /* section 4 */
 
-.section4 h2 {
+.section-portfolio-title {
   font-size: 36px;
   line-height: 1.11;
   font-weight: 700;
@@ -145,7 +145,7 @@ ul {
   color: #2e2f42;
 }
 
-.portfolio-list h3 {
+.section-portfolio-list {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -154,7 +154,7 @@ ul {
   color: #2e2f42;
 }
 
-.portfolio-list p {
+.section-portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -170,7 +170,7 @@ ul {
   color: #f4f4fd;
 }
 
-.footer p {
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
