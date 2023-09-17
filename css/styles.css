@@ -17,15 +17,13 @@ ul {
   font-family: "Raleway", sans-serif;
   font-size: 18;
   font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 
 .logo-studio {
-  font-family: "Raleway", sans-serif;
-  font-size: 18;
-  font-weight: 700;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 
@@ -33,6 +31,7 @@ ul {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-link li a:hover,
@@ -42,7 +41,10 @@ ul {
 }
 
 .adress-link li a {
+  font-style: normal;
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .adress-link li a:hover,
@@ -53,28 +55,31 @@ ul {
 /* section 1 */
 
 .section1 {
-  width: 1440px;
-  height: 600px;
   background: #2e2f42;
 }
 
 .section1-title {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-size: 56;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   font-weight: 700;
 }
 
 .section1-button {
-  color: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
-  border-radius: 4px;
+  letter-spacing: 0.04em;
   background: #4d5ae5;
   cursor: pointer;
 }
 
-.section1-button:hover {
+.section1-button:hover,
+.section1-button:focus {
   background: #404bbf;
 }
 
@@ -135,8 +140,6 @@ ul {
 /* footer */
 
 .footer {
-  width: 1440px;
-  height: 312px;
   background: #2e2f42;
 }
 
