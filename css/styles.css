@@ -15,7 +15,7 @@ ul {
 
 .logo-web {
   font-family: "Raleway", sans-serif;
-  font-size: 18;
+  font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -86,9 +86,16 @@ ul {
 /* section2 */
 
 .section2 li h3 {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section2 li p {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* section3 */
@@ -98,43 +105,59 @@ ul {
 }
 
 .section3 h2 {
-  font-size: 36;
+  font-size: 36px;
+  line-height: 1.11;
   font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
   text-transform: capitalize;
   text-align: center;
 }
 
+.our-team-list {
+  background-color: #ffffff;
+}
+
 .our-team-list li h3 {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .our-team-list li p {
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* section 4 */
 
 .section4 h2 {
-  font-size: 36;
+  font-size: 36px;
+  line-height: 1.11;
   font-weight: 700;
   text-transform: capitalize;
   text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .portfolio-list h3 {
-  font-size: 20;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   letter-spacing: 0.4px;
+  color: #2e2f42;
 }
 
 .portfolio-list p {
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* footer */
@@ -144,14 +167,12 @@ ul {
 }
 
 .logo-studio-white {
-  font-family: "Raleway", sans-serif;
-  font-size: 18;
-  font-weight: 700;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
 
 .footer p {
-  font-size: 16;
+  font-size: 16px;
+  line-height: 1.5;
   color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
