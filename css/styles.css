@@ -40,8 +40,11 @@ ul {
   text-decoration: underline;
 }
 
-.adress-link {
+.adress-list {
   font-style: normal;
+}
+
+.adress-link {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
