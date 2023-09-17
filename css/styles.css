@@ -110,3 +110,45 @@ ul {
   font-size: 16;
   line-height: 1.5;
 }
+
+/* section 4 */
+
+.section4 h2 {
+  font-size: 36;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.portfolio-list h3 {
+  font-size: 20;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.portfolio-list p {
+  font-size: 16;
+  line-height: 1.5;
+}
+
+/* footer */
+
+.footer {
+  width: 1440px;
+  height: 312px;
+  background: #2e2f42;
+}
+
+.logo-studio-white {
+  font-family: "Raleway", sans-serif;
+  font-size: 18;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.footer p {
+  font-size: 16;
+  color: #f4f4fd;
+}
